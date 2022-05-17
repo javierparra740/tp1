@@ -1,0 +1,12 @@
+<div class="row pt-3">
+  <div class="col-md-3 col-sm-6 col-lg-4" *ngFor="let consola of consolas">
+    <div class="card">
+      <!-- property binding -->
+      <img [src]="consola.url" class="card-img-bottom" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{consola.nombre}}</h5>
+        <p class="card-text">{{consola.anio}}</p>
+      </div>
+    </div>
+  </div>
+</div>
