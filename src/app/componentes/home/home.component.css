@@ -1,0 +1,8 @@
+.perros{
+  display: flex;
+}
+img {
+  max-width: 80%;
+  height: auto;
+  justify-items: center;
+}

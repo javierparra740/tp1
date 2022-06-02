@@ -1,6 +1,6 @@
 <div class="row pt-3">
   <div class="col-md-3 col-sm-6 col-lg-4" *ngFor="let consola of consolas">
-    <div class="card">
+    <div class="card" *ngIf="consola.disponibilidad">
       <!-- property binding -->
       <img [src]="consola.url" class="card-img-bottom" alt="...">
       <div class="card-body">

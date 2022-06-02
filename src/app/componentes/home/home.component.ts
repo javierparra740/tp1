@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   public pelicula;
   constructor() {
-    this.pelicula = { id: 1, nombre: "El secreto de sus ojos", anio: 2010 }
+    this.pelicula = ""
   }
 
   ngOnInit(): void {
